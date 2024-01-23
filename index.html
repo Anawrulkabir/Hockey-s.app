@@ -26,6 +26,7 @@
         * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
             font-family: 'Manrope', sans-serif;
         }
 
@@ -176,7 +177,7 @@
 
         <!-- Sliding image with CSS Carousel -->
 
-        <section class="md:mt-4">
+        <section class="md:mt-4 md:relative">
 
 
             <div id="default-carousel" class="relative w-full " data-carousel="slide">
@@ -256,6 +257,31 @@
                     </span>
                 </button>
             </div>
+
+            <!-- image top of the sliding image -->
+            <div
+                class="md:absolute bottom-4 right-4 z-50  flex flex-col  justify-center text-left text-white w-full md:w-[470px]  p-4 md:p-8 mt-4 bg-[#131318] rounded-lg shadow dark:text-gray-400 dark:bg-gray-800">
+
+                <h3 class="md:text-[18px] text-[18px] md:font-extrabold font-extrabold text-left mb-3">Meet all the
+                    heroes
+                    from the
+                    field</h3>
+
+
+                <p class="text-[rgba(255, 255, 255, 0.60)] md:text-[14px] text-[14px] leading-[24px] font-[500]">
+                    Meet the champions of the field. Welcome to a place where passion and skill unite – your home for
+                    everything
+                    hockey!🤩🌟
+
+                </p>
+
+
+
+
+            </div>
+
+
+
 
         </section>
         <!-- pop-up message design -->
